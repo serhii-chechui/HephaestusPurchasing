@@ -17,4 +17,4 @@ All notable changes to this project will be documented in this file. The format 
   StoreKit testing in Xcode and Google Play license testing, with a test checklist.
 
 ### ci
-- GitHub Actions workflow that publishes the package to the WTFGames UPM registry when a GitHub release is published.
+- GitHub Actions workflow that publishes the package to the WTFGames UPM registry when a GitHub release is created.
