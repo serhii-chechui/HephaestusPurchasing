@@ -11,3 +11,7 @@ All notable changes to this project will be documented in this file. The format 
 - `IProductCatalog` with a ready-made `ProductCatalog` asset.
 - Store-independent `PurchaseProcessor` and `NullStoreService`, with edit mode tests.
 - Catalog titles replace the Fake Store's placeholder titles in the editor.
+
+### docs
+- README: store setup for App Store Connect and Google Play Console, test purchases in the editor, the iOS sandbox,
+  StoreKit testing in Xcode and Google Play license testing, with a test checklist.
