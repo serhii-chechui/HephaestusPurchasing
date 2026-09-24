@@ -15,3 +15,6 @@ All notable changes to this project will be documented in this file. The format 
 ### docs
 - README: store setup for App Store Connect and Google Play Console, test purchases in the editor, the iOS sandbox,
   StoreKit testing in Xcode and Google Play license testing, with a test checklist.
+
+### ci
+- GitHub Actions workflow that publishes the package to the WTFGames UPM registry when a GitHub release is published.
