@@ -1,0 +1,20 @@
+name: Publish to Verdaccio
+
+# Publish the package to the WTFGames UPM registry each time a GitHub release is published.
+# Only "published" is handled: releases can also be edited or deleted, and those must not publish.
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Publish to Verdaccio
+      - run: npm publish --registry https://upm.wtfgames.com.ua/
