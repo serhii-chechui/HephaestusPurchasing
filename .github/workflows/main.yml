@@ -15,6 +15,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          # Writes an .npmrc that authenticates against the registry with NODE_AUTH_TOKEN.
+          registry-url: https://upm.wtfgames.com.ua/
 
       # Publish to Verdaccio
       - run: npm publish --registry https://upm.wtfgames.com.ua/
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.VERDACCIO_TOKEN }}
