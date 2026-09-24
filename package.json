@@ -1,0 +1,26 @@
+{
+  "name": "com.wtfgames.hephaestus.purchasing",
+  "version": "1.0.0",
+  "displayName": "Hephaestus Purchasing",
+  "description": "Hephaestus Purchasing is a part of the Hephaestus Core framework that sells in-app products through Unity IAP: consumables, non-consumables and restore.",
+  "unity": "2022.3",
+  "keywords": [
+    "unity",
+    "mobile",
+    "framework",
+    "iap",
+    "purchasing"
+  ],
+  "author": {
+    "name": "WTFGames",
+    "email": "serhii.chechui@gmail.com",
+    "url": "https://github.com/serhii-chechui"
+  },
+  "dependencies": {
+    "com.svermeulen.extenject": "9.2.0-stcf3",
+    "com.unity.purchasing": "5.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://upm.wtfgames.com.ua/"
+  }
+}

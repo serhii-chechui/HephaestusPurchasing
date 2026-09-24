@@ -1,0 +1,14 @@
+{
+    "name": "com.wtfgames.hephaestus.purchasing",
+    "rootNamespace": "WTFGames.Hephaestus.PurchasingSystem",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

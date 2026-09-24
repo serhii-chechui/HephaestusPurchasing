@@ -1,0 +1,19 @@
+{
+    "name": "com.wtfgames.hephaestus.purchasing.unityiap",
+    "rootNamespace": "WTFGames.Hephaestus.PurchasingSystem.UnityIAP",
+    "references": [
+        "com.wtfgames.hephaestus.purchasing",
+        "Zenject",
+        "Unity.Purchasing",
+        "Unity.Purchasing.Stores"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
